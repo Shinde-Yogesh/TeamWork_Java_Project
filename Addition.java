@@ -3,12 +3,12 @@ package TeamWork_Java_Project;
 public class Addition{
     public static void main(String[] args) {
         System.out.println("Helllo world");
-        sum(10, 30);
+        System.out.println(sum(10, 30));
     }
 
-    public static void sum(int a , int b)
+    public static int sum(int a , int b)
     {
-        System.out.println(a+b);
+       return a + b;
     }
      public static int  multiplication(int a , int b)
     {
