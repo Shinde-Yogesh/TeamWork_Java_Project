@@ -10,8 +10,8 @@ public class Addition{
     {
         System.out.println(a+b);
     }
-     public static void multiplication(int a , int b)
+     public static int  multiplication(int a , int b)
     {
-        System.out.println(a*b);
+        return a*b;
     }
 }
